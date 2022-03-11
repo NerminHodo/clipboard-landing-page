@@ -1,0 +1,295 @@
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url("../images/bg-header-desktop.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.paragraph-p {
+  color: hsl(201, 11%, 66%);
+  margin: auto;
+  width: 50%;
+}
+
+/* ↓↓ Header ↓↓ */
+.header {
+  padding: 9% 5% 2% 5%;
+}
+.logo {
+  padding-bottom: 4%;
+  width: 9%;
+}
+.big-heading {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  padding: 1%;
+}
+
+.btn {
+  margin: 5% 1%;
+  padding: 7px 25px;
+}
+.btn-ios {
+  background-color: hsl(171, 66%, 44%);
+  color: white;
+}
+.btn-ios:hover {
+  background-color: hsl(171, 52%, 58%);
+  color: white;
+}
+.btn-mac {
+  background-color: hsl(233, 100%, 69%);
+  color: white;
+}
+.btn-mac:hover {
+  background-color: hsl(233, 100%, 77%);
+  color: white;
+}
+/* ↑↑ Header ↑↑ */
+
+/* ↓↓ Snippets ↓↓*/
+
+.snippets {
+  padding-bottom: 5%;
+}
+.snippets-h2 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  padding: 1%;
+}
+
+
+
+/* ↑↑ Snippets ↑↑ */
+
+/* ↓↓ Features ↓↓ */
+.img-comp {
+  margin-left: -15%;
+  width: 110%;
+}
+
+.features-heading {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  padding-top: 8%;
+  padding-left: 10%;
+}
+
+.features-p {
+  width: 69%;
+  color: hsl(201, 11%, 66%);
+  padding-left: 10%;
+}
+
+/* ↑↑ Features ↑↑ */
+
+/* ↓↓ Clipboard ↓↓ */
+
+.clipboard {
+  padding: 10% 10% 7%;
+}
+.clipboard-h2 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  padding: 1%;
+}
+
+
+
+/* ↑↑ Clipboard ↑↑ */
+
+/* ↓↓ Workflow ↓↓ */
+.workflow {
+  padding: 7% 10%;
+}
+.workflow-h2 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  padding: 1%;
+}
+
+
+
+/* ↑↑ Workflow ↑↑ */
+
+/* ↓↓ Features ↓↓ */
+
+.features2 {
+  padding: 5%;
+  margin: 0 5%;
+}
+.features2-h4 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  padding: 10% 5% 5%;
+}
+
+.features2-p {
+  color: hsl(201, 11%, 66%);
+}
+
+/* ↑↑ Features ↑↑ */
+
+.icons {
+  padding: 5%;
+}
+
+.icon2 {
+  padding: 3%;
+}
+
+.download {
+  padding: 5%;
+}
+.download-h2 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  padding: 1%;
+}
+
+
+
+.contact {
+  background-color: hsl(220, 18%, 97%);
+  padding: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  color: hsl(210, 10%, 33%);
+}
+ul {
+  list-style: none;
+  margin: 0;
+  text-align: left;
+}
+.footer-logo {
+  padding-top: 4%;
+  width: 25%;
+}
+li {
+  padding: 3%;
+}
+.fa-brands {
+  padding: 5%;
+  padding-top: 20%;
+}
+.fa-brands:hover {
+  color: hsl(171, 52%, 58%);
+  cursor: pointer;
+}
+li:hover {
+  color: hsl(171, 52%, 58%);
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  background-color: hsl(220, 18%, 97%);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("../images/bg-header-mobile.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .header{
+    padding: 0;
+  }
+  .logo {
+    padding-top: 20%;
+    padding-bottom: 15%;
+    width: 30%;
+  }
+  .big-heading {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    padding: 1%;
+    width: 80%;
+    margin: auto;
+  }
+  .paragraph-p{
+    padding: 5% 0;
+    width: 99%;
+  }
+  .btn {
+    margin: 1% 1%;
+    width: 90%;
+    padding: 7px 25px;
+  }
+  .snippets-h2 {
+    margin: 40% auto auto auto;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    padding: 1%;
+    width: 90%;
+  }
+  .img-comp {
+    margin-left: auto;
+    width: 100%;
+  }
+
+  .features{
+    padding-top: 15%;
+    padding-bottom: 30%;
+  }
+
+  .features-heading {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    padding-top: 8%;
+    padding-left: 0%;
+    text-align: center;
+  }
+  
+  .features-p {
+    width: 100%;
+    color: hsl(201, 11%, 66%);
+    padding-left: 0%;
+    text-align: center;
+  }
+  .clipboard-h2{
+    padding: 0 10%;
+  }
+  .clipboard {
+    padding: 10% 0 7%;
+  }
+  .workflow{
+    margin-top: 10%;
+  }
+  .featur-img{
+    padding-top: 15%;
+  }
+ 
+  .features2{
+    padding: 0;
+  }
+  .icon2{
+    width: 60%;
+    padding: 10%;
+  }
+  .download{
+    padding-top: 20%;
+  }
+  .download-h2{
+    width: 90%;
+  }
+  .footer-logo{
+    width: 15%;
+    padding-bottom: 10%;
+  }
+  ul {
+    text-align: center;
+    padding: 0;
+  }
+}
